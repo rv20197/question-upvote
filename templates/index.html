@@ -7,12 +7,12 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <style media="screen">
 input {
-	width: 100%;
+	width: 50%;
 	margin-bottom: 10px;
 	border: none;
 	outline: none;
 	padding: 10px;
-	margin-left: 150px;
+	margin-left: 450px;
 	font-size: 13px;
 	color: #000;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
@@ -30,10 +30,10 @@ h1{
 	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
 	padding: 10px;
-	margin-left: 50px;
+	margin-left: 350px;
 }
 body{
-	background-color: #e0dede;
+	background-color: #32e0c4;
 	text-align: center;
 	margin: auto;
 	position: fixed;
@@ -41,13 +41,11 @@ body{
 	display: grid;
 	align-items: center;
 }
-/* .btn btn-primary{
-	text-align: center;
-	margin: auto;
-	position: fixed;
-	display: flex;
-	display: grid;
-} */
+
+button{
+    margin-left: 310px;
+    /*position:relative;*/
+}
 
 </style>
 </head>
@@ -76,6 +74,7 @@ body{
     </form>
 
    <br>
+
    {{ prediction_text }}
 
  </div>
